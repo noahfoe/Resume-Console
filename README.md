@@ -32,4 +32,4 @@ Whenever those commands are added, I may add some file management commands (`tou
 
 ## Known Issues
 
-- URL Launcher is not working correctly. Sometimes opening links works correctly, other times they do not send you to the correct URL."# Resume-Console" 
+- URL Launcher is not working correctly. Sometimes opening links works correctly, other times they do not send you to the correct URL.
