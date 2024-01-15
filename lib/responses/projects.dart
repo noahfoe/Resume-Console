@@ -64,7 +64,7 @@ class ProjectsState extends State<Projects> {
               text: "Flutter Web Console\n\n",
               recognizer: _tapGestureRecognizer
                 ..onTap = () async {
-                  String url = "";
+                  String url = "https://github.com/noahfoe/Resume-Console";
                   openUrl(url);
                 },
               style: const TextStyle(
