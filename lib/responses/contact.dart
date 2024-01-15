@@ -89,6 +89,14 @@ class _ContactState extends State<Contact> {
                 fontWeight: FontWeight.normal,
               ),
             ),
+            const TextSpan(
+              text:
+                  "\n\nTo see some of my skills, try typing the command `skills`.",
+              style: TextStyle(
+                color: KColors.kBlue,
+                fontSize: 16.0,
+              ),
+            ),
           ],
         ),
       ),

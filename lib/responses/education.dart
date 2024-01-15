@@ -47,7 +47,8 @@ class EducationState extends State<Education> {
               ),
               children: [
                 const TextSpan(
-                  text: " - Texas State University in San Marcos, Texas.",
+                  text:
+                      " - Bachelors of Science in Computer Science and Double Minors in Communications and Applied Mathematics at Texas State University in San Marcos, Texas.",
                   style: TextStyle(
                     color: KColors.kWhite,
                     fontFamily: "CouierPrime",
@@ -101,6 +102,24 @@ class EducationState extends State<Education> {
                     fontSize: 16.0,
                     fontFamily: "CouierPrime",
                     decoration: TextDecoration.none,
+                  ),
+                ),
+                const TextSpan(
+                  text:
+                      "\nAs technology is ever-changing, I am always learning more and more new things as well.",
+                  style: TextStyle(
+                    color: KColors.kWhite,
+                    fontSize: 16.0,
+                    fontFamily: "CouierPrime",
+                    decoration: TextDecoration.none,
+                  ),
+                ),
+                const TextSpan(
+                  text:
+                      "\n\nIf you are unsure where to go next, try typing `help` to see a list of commands.",
+                  style: TextStyle(
+                    color: KColors.kBlue,
+                    fontSize: 16.0,
                   ),
                 ),
               ],

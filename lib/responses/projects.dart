@@ -31,7 +31,7 @@ class ProjectsState extends State<Projects> {
       child: RichText(
         text: TextSpan(
           text:
-              "I have worked on many projects over the years, most of which are on my ",
+              "I have worked on many personal projects over the years, most of which are on my ",
           style: const TextStyle(
             color: KColors.kWhite,
             fontSize: 16.0,
@@ -53,7 +53,7 @@ class ProjectsState extends State<Projects> {
               ),
             ),
             const TextSpan(
-              text: "My most recent project is this website!\n",
+              text: "My most recent personal project is this website!\n",
               style: TextStyle(
                 color: KColors.kWhite,
                 fontSize: 16.0,
@@ -76,7 +76,7 @@ class ProjectsState extends State<Projects> {
             ),
             const TextSpan(
               text:
-                  "Another project that I am most proud of is an app that I made for a College class in my Junior year of college.\n",
+                  "Another personal project that I am most proud of is an app that I made for a College class in my Junior year of college.\n",
               style: TextStyle(
                 color: KColors.kWhite,
                 fontSize: 16.0,
@@ -113,6 +113,14 @@ class ProjectsState extends State<Projects> {
                 color: KColors.kWhite,
                 fontSize: 16.0,
                 fontFamily: "CouierPrime",
+              ),
+            ),
+            const TextSpan(
+              text:
+                  "\n\nTo learn more about where I went to school, try typing the command `education`.",
+              style: TextStyle(
+                color: KColors.kBlue,
+                fontSize: 16.0,
               ),
             ),
           ],
